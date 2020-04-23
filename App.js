@@ -1,8 +1,8 @@
-import React from "react";
-import { Text } from "react-native";
+import React from 'react';
+import Main from './components/MainComponent';
 
 export default function App() {
-  return (
-    <Text style={{ marginTop: 100 }}>Hello Nucamp React Native Class!</Text>
-  );
-}
+    return (
+        <Main />
+    );
+} 
